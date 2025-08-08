@@ -1,4 +1,4 @@
-# QubeMI: Quantum Computing & Materials Informatics
+# QubeML: Quantum Computing & Materials Informatics
 **An Educational Framework for Quantum-Materials Research**
 
 <div align="center">
@@ -6,7 +6,7 @@
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://www.python.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebooks-orange)](https://jupyter.org/)
 [![Colab](https://img.shields.io/badge/Google-Colab-yellow)](https://colab.research.google.com/)
-[![Educational](https://img.shields.io/badge/Resource-Educational-purple)](https://github.com/meshalawein/QubeMI)
+[![Educational](https://img.shields.io/badge/Resource-Educational-purple)](https://github.com/meshalawein/QubeML)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![UC Berkeley](https://img.shields.io/badge/UC-Berkeley-003262)](https://berkeley.edu)
 
@@ -18,7 +18,7 @@
 
 ## 🎯 Project Overview
 
-QubeMI provides a structured learning path through six fundamental tools at the intersection of quantum computing and materials science. This educational resource is designed for researchers, graduate students, and curious minds exploring how quantum algorithms can address materials science challenges.
+QubeML provides a structured learning path through six fundamental tools at the intersection of quantum computing and materials science. This educational resource is designed for researchers, graduate students, and curious minds exploring how quantum algorithms can address materials science challenges.
 
 ## ⚛️ Core Educational Modules
 
