@@ -1,7 +1,7 @@
 # Educational Learning Progression
 
 ## Overview
-This document tracks the learning journey across all six quantum computing and materials informatics tools in the QubeMI educational framework.
+This document tracks the learning journey across all six quantum computing and materials informatics tools in the QubeML educational framework.
 
 ## Progression Levels
 

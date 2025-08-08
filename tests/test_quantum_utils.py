@@ -1,4 +1,4 @@
-"""Tests for quantum utility functions"""
+"""Tests for QubeML quantum utility functions"""
 
 import numpy as np
 import pytest

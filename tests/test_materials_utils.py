@@ -1,4 +1,4 @@
-"""Tests for materials informatics utility functions"""
+"""Tests for QubeML materials informatics utility functions"""
 
 import numpy as np
 import pytest
