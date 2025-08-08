@@ -221,7 +221,16 @@ def quantum_fourier_transform(n_qubits: int) -> np.ndarray:
     This will be useful for quantum algorithms like Shor's algorithm
     """
     # TODO: Implement QFT matrix construction
+    # Reference: Nielsen & Chuang Chapter 5
+    # Need to check phase factors: omega = exp(2πi/2^k)
     pass
+
+
+# NOTE: Look up VQE implementation for molecular systems
+# Useful papers:
+# - Peruzzo et al. (2014) - Original VQE paper
+# - McClean et al. (2016) - Theory of variational quantum simulation
+# BOOKMARK: https://arxiv.org/abs/1304.3061
 
 
 def simulate_quantum_walk(steps: int) -> np.ndarray:

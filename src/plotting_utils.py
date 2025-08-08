@@ -416,3 +416,23 @@ def plot_confusion_matrix(
     
     plt.tight_layout()
     return fig
+
+
+# TODO: Add more specialized plotting functions for materials science
+# Ideas to implement:
+# - Density of states plots
+# - Phonon dispersion curves  
+# - Property correlation heatmaps
+# - Interactive 3D structure plots (maybe with plotly?)
+#
+# RESEARCH NOTES:
+# - Check ASE visualization functions for inspiration
+# - Look into plotly for interactive plots in Jupyter notebooks
+# - Consider adding Brillouin zone plotting functionality
+#
+# INCOMPLETE: Started working on DOS plotting but need to research format
+def plot_density_of_states():
+    """Plot electronic density of states - TODO: implement"""
+    # Need to research standard DOS data format
+    # Usually energy vs DOS(E), but need to handle spin-polarized case
+    pass
