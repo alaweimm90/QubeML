@@ -1,0 +1,158 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE - VSCode
+.vscode/
+*.code-workspace
+
+# IDE - PyCharm
+.idea/
+*.iml
+*.iws
+
+# IDE - Spyder
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Data files (but keep sample data)
+data/*.pkl
+data/*.hdf5
+data/*.h5
+data/*.npy
+data/*.npz
+data/raw/
+data/processed/
+!data/sample_*
+!data/bandgap_*
+
+# Model checkpoints and outputs
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.keras
+*.joblib
+*.sav
+checkpoints/
+models/
+outputs/
+results/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.bak
+*~
+.DS_Store
+Thumbs.db
+
+# Quantum computing specific
+*.qasm
+*.qpy
+qiskit_cache/
+
+# Materials informatics specific
+*.cif
+*.xyz
+*.pdb
+POSCAR*
+CONTCAR*
+OUTCAR*
+vasprun.xml
+*.cell
+*.param
+
+# Documentation build
+docs/_build/
+docs/api/
+*.rst~
+
+# Secrets and credentials
+*.key
+*.pem
+secrets.json
+credentials.json
+config.ini
