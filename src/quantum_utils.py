@@ -211,3 +211,26 @@ def apply_noise(state: np.ndarray, noise_prob: float = 0.01, noise_type: str = "
     state = state / np.linalg.norm(state)
     
     return state
+
+
+def quantum_fourier_transform(n_qubits: int) -> np.ndarray:
+    """
+    Create quantum Fourier transform circuit.
+    
+    TODO: Implement QFT for educational purposes
+    This will be useful for quantum algorithms like Shor's algorithm
+    """
+    # TODO: Implement QFT matrix construction
+    pass
+
+
+def simulate_quantum_walk(steps: int) -> np.ndarray:
+    """
+    Simulate quantum walk on a line.
+    
+    TODO: Add quantum walk simulation for educational examples
+    """
+    # Placeholder implementation
+    positions = np.arange(-steps, steps+1)
+    # TODO: Calculate probability distribution after quantum walk
+    return positions
