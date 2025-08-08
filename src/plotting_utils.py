@@ -18,7 +18,7 @@ import warnings
 
 
 def setup_plotting_style():
-    """Set up consistent plotting style for the portfolio."""
+    """Set up consistent plotting style for educational materials."""
     plt.style.use('seaborn-v0_8-darkgrid')
     sns.set_palette("husl")
     plt.rcParams.update({
@@ -31,6 +31,8 @@ def setup_plotting_style():
         'legend.fontsize': 12,
         'figure.dpi': 100,
         'savefig.dpi': 300,
+        'axes.grid': True,
+        'grid.alpha': 0.3,
     })
 
 
