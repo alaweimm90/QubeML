@@ -334,3 +334,35 @@ def generate_2d_material_params(
     params["effective_mass"] *= (1 + abs(strain) * 0.005)  # Mass increase with strain
     
     return params
+
+
+def estimate_bulk_modulus(
+    volume: float,
+    formation_energy: float,
+    atomic_numbers: List[int]
+) -> float:
+    """
+    Estimate bulk modulus using empirical correlations.
+    
+    Args:
+        volume: Unit cell volume in cubic Angstroms
+        formation_energy: Formation energy per atom in eV
+        atomic_numbers: List of atomic numbers
+    
+    Returns:
+        Estimated bulk modulus in GPa
+    """
+    # Average atomic number as descriptor
+    avg_z = np.mean(atomic_numbers)
+    
+    # Empirical relationship (simplified)
+    # Generally: harder materials have more negative formation energies
+    stability_factor = abs(formation_energy) / len(atomic_numbers)
+    
+    # Bulk modulus estimation (empirical formula)
+    bulk_modulus = (avg_z * stability_factor * 20) / (volume / len(atomic_numbers)) ** (1/3)
+    
+    # Reasonable bounds (10-400 GPa for most materials)
+    bulk_modulus = np.clip(bulk_modulus, 10, 400)
+    
+    return float(bulk_modulus)
