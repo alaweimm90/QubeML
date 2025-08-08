@@ -79,8 +79,8 @@ QubeMI/
 
 ```bash
 # Clone the educational repository
-git clone https://github.com/meshalawein/QubeMI.git
-cd QubeMI
+git clone https://github.com/meshalawein/QubeML.git
+cd QubeML
 
 # Create virtual environment for isolated learning
 python -m venv venv
