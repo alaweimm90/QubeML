@@ -210,31 +210,52 @@ This is an open educational resource. Contributions that enhance learning are we
 
 ---
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+**Copyright © 2025 Dr. Meshal Alawein — All rights reserved.**
+
+---
+
+## Connect & Collaborate
 <div align="center">
 
-## 👨‍🔬 Connect & Collaborate
-
-<strong>Dr. Meshal Alawein</strong><br/>
-<em>Computational Physicist & Research Scientist</em><br/>
+**Dr. Meshal Alawein**  
+*Research Scientist | Computational Physics & Materials Modeling*  
 University of California, Berkeley
 
 ---
 
 📧 <a href="mailto:meshal@berkeley.edu" style="color:#003262;">meshal@berkeley.edu</a>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5)](https://linkedin.com/in/meshalawein)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717)](https://github.com/meshalawein)
-[![Google Scholar](https://img.shields.io/badge/Scholar-Research-4285F4)](https://scholar.google.com)
-[![ResearchGate](https://img.shields.io/badge/ResearchGate-Profile-00CCBB)](https://researchgate.net)
+<a href="https://www.linkedin.com/in/meshal-alawein" title="LinkedIn">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" height="32" />
+</a>
+<a href="https://github.com/alaweimm90" title="GitHub">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub" height="32" />
+</a>
+<a href="https://malawein.com" title="Website">
+  <img src="https://img.shields.io/badge/Website-003262?style=flat&logo=googlechrome&logoColor=white" alt="Website" height="32" />
+</a>
+<a href="https://scholar.google.com/citations?user=IB_E6GQAAAAJ&hl=en" title="Google Scholar">
+  <img src="https://img.shields.io/badge/Scholar-4285F4?style=flat&logo=googlescholar&logoColor=white" alt="Scholar" height="32" />
+</a>
+<a href="https://simcore.dev" title="SimCore">
+  <img src="https://img.shields.io/badge/SimCore-FDB515?style=flat&logo=atom&logoColor=white" alt="SimCore" height="32" />
+</a>
+
+</div>
+<p align="center">
+<em>
+Made with love, and a deep respect for the struggle.<br/>
+For those still learning—from someone who still is.<br/>
+Science can be hard. This is my way of helping. ⚛️
+</em>
+</p>
 
 </div>
 
 ---
 
-**License**: MIT License © 2025 Dr. Meshal Alawein — All rights reserved
-
-<p align="center"><em>
-Made with love, and a deep respect for the struggle.<br/>
-For those still learning—from someone who still is.<br/>
-Science can be hard. This is my way of helping. ⚛️
-</em></p>
+*Crafted with love, 🐻 energy, and zero sleep.*
