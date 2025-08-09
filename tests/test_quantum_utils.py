@@ -1,4 +1,4 @@
-"""Tests for QubeML quantum utility functions"""
+"""Quantum utilities test suite."""
 
 import numpy as np
 import pytest
@@ -14,10 +14,9 @@ from src.quantum_utils import (
 
 
 class TestQuantumUtils:
-    """Test suite for quantum utility functions."""
     
     def test_bell_states(self):
-        """Test Bell state creation."""
+        """Bell states normalized and entangled."""
         # Test all four Bell states
         bell_types = ["phi_plus", "phi_minus", "psi_plus", "psi_minus"]
         
