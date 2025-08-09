@@ -1,9 +1,5 @@
 """
-Educational utility functions for materials informatics and computational materials science.
-
-This module provides tools for analyzing crystal structures, calculating materials 
-descriptors, and preparing data for machine learning applications. Designed for 
-educational use in understanding structure-property relationships in materials.
+Crystal structure descriptors and materials property calculations.
 
 Author: Dr. Meshal Alawein (meshal@berkeley.edu)
 Institution: University of California, Berkeley
@@ -20,20 +16,13 @@ def create_crystal_descriptors(
     atomic_numbers: List[int],
     positions: np.ndarray
 ) -> Dict[str, Union[float, np.ndarray]]:
-    """
-    Create descriptors for crystal structures.
+    """Extract descriptors from crystal structure.
     
-    Args:
-        lattice_params: Lattice parameters [a, b, c, alpha, beta, gamma]
-        atomic_numbers: List of atomic numbers
-        positions: Fractional coordinates of atoms (N x 3)
-    
-    Returns:
-        Dictionary of crystal descriptors
+    Volume uses triclinic formula. Density approximates mass with atomic number.
+    Packing fraction is atom count per unit volume (crude approximation).
     """
     descriptors = {}
     
-    # Lattice descriptors
     a, b, c, alpha, beta, gamma = lattice_params
     descriptors["volume"] = a * b * c * np.sqrt(
         1 + 2*np.cos(np.radians(alpha))*np.cos(np.radians(beta))*np.cos(np.radians(gamma))
@@ -42,7 +31,6 @@ def create_crystal_descriptors(
     descriptors["density"] = sum(atomic_numbers) / descriptors["volume"]
     descriptors["packing_fraction"] = len(atomic_numbers) / descriptors["volume"]
     
-    # Composition descriptors
     descriptors["mean_atomic_number"] = np.mean(atomic_numbers)
     descriptors["std_atomic_number"] = np.std(atomic_numbers)
     descriptors["max_atomic_number"] = max(atomic_numbers)
