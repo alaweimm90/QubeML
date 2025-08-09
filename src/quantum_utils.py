@@ -1,9 +1,5 @@
 """
-Educational utility functions for quantum computing operations.
-
-This module provides fundamental quantum computing operations designed for learning
-and exploration. Each function includes detailed docstrings and examples to help
-newcomers understand quantum concepts through hands-on implementation.
+Quantum state operations and measurements.
 
 Author: Dr. Meshal Alawein (meshal@berkeley.edu)
 Institution: University of California, Berkeley
@@ -16,14 +12,10 @@ import warnings
 
 
 def create_bell_state(state_type: str = "phi_plus") -> np.ndarray:
-    """
-    Create a Bell state vector.
+    """Bell states for entanglement tests.
     
-    Args:
-        state_type: Type of Bell state ('phi_plus', 'phi_minus', 'psi_plus', 'psi_minus')
-    
-    Returns:
-        Bell state as a numpy array
+    phi_plus = (|00> + |11>)/√2, phi_minus = (|00> - |11>)/√2
+    psi_plus = (|01> + |10>)/√2, psi_minus = (|01> - |10>)/√2
     """
     bell_states = {
         "phi_plus": np.array([1, 0, 0, 1]) / np.sqrt(2),

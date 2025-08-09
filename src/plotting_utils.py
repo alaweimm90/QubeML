@@ -1,9 +1,5 @@
 """
-Educational visualization utilities for quantum computing and materials science.
-
-This module provides plotting functions specifically designed for educational purposes,
-creating clear, informative visualizations that help learners understand complex
-scientific concepts through visual exploration.
+Visualization tools for quantum states and materials properties.
 
 Author: Dr. Meshal Alawein (meshal@berkeley.edu)
 Institution: University of California, Berkeley
@@ -12,15 +8,21 @@ License: MIT License © 2025
 
 import numpy as np
 import matplotlib.pyplot as plt
-import seaborn as sns
 from typing import Dict, List, Optional, Tuple, Union
 import warnings
 
+try:
+    import seaborn as sns
+    HAS_SEABORN = True
+except ImportError:
+    HAS_SEABORN = False
+
 
 def setup_plotting_style():
-    """Set up consistent plotting style for educational materials."""
-    plt.style.use('seaborn-v0_8-darkgrid')
-    sns.set_palette("husl")
+    """Configure matplotlib/seaborn for publication-ready plots."""
+    if HAS_SEABORN:
+        plt.style.use('seaborn-v0_8-darkgrid')
+        sns.set_palette("husl")
     plt.rcParams.update({
         'figure.figsize': (10, 6),
         'font.size': 12,
