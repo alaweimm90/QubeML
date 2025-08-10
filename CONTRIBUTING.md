@@ -10,6 +10,8 @@ Thank you for your interest in contributing to QubeML! This document outlines th
 3. **Clear commit messages**: Use descriptive messages that explain what and why
 4. **Test before committing**: Ensure all tests pass before making commits
 5. **One feature per commit**: Avoid bundling multiple unrelated changes
+6. **Local commits only**: Commit changes locally, do not push to remote
+7. **Pull regularly**: Use `git pull` to sync with remote changes
 
 ### Code Quality
 - Follow existing code style and conventions
@@ -30,7 +32,7 @@ Thank you for your interest in contributing to QubeML! This document outlines th
 2. Install dependencies: `pip install -r requirements.txt`
 3. Run tests to ensure setup works: `python3 -m pytest tests/ -v`
 4. Start with small improvements or bug fixes
-5. Submit focused pull requests
+5. Commit changes locally (no pushing to remote)
 
 ### Best Practices
 - Keep changes atomic and reversible
