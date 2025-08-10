@@ -21,6 +21,12 @@ def create_crystal_descriptors(
     Volume uses triclinic formula. Density approximates mass with atomic number.
     Packing fraction is atom count per unit volume (crude approximation).
     """
+    if len(lattice_params) != 6:
+        raise ValueError("lattice_params must contain exactly 6 values: a, b, c, alpha, beta, gamma")
+    
+    if not atomic_numbers:
+        raise ValueError("atomic_numbers cannot be empty")
+    
     descriptors = {}
     
     a, b, c, alpha, beta, gamma = lattice_params
