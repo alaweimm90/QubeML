@@ -112,6 +112,6 @@ MIT License. See [LICENSE](LICENSE).
 
 ## Author
 
-Dr. Meshal Alawein  
+Meshal Alawein  
 UC Berkeley  
 meshal@berkeley.edu

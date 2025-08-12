@@ -1,7 +1,7 @@
 """QubeML: Quantum Computing & Materials Informatics Utilities"""
 
 __version__ = "0.1.0"
-__author__ = "Dr. Meshal Alawein"
+__author__ = "Meshal Alawein"
 
 from . import quantum_utils
 from . import materials_utils

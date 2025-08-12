@@ -1,7 +1,7 @@
 """
 Crystal structure descriptors and materials property calculations.
 
-Author: Dr. Meshal Alawein (meshal@berkeley.edu)
+Author: Meshal Alawein (meshal@berkeley.edu)
 Institution: University of California, Berkeley
 License: MIT License © 2025
 """
